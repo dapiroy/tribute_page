@@ -4,13 +4,12 @@ pipeline {
     
     stages {
         
-        stage('Git Checkout') {
+        stage("build") {
             
             steps {
-                
-                script {
-                    
-                    git branch: 'master', url: 'https://github.com/dapiroy/tribute_page.git'
-                }
+                echo 'building the application'
             }
         }
+    }
+}
+               
