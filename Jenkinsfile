@@ -1,14 +1,14 @@
-pipeline{
+pipeline {
     
     agent any 
     
     stages {
         
-        stage('Git Checkout'){
+        stage('Git Checkout') {
             
-            steps{
+            steps {
                 
-                script{
+                script {
                     
                     git branch: 'main', url: 'https://github.com/dapiroy/tribute_page.git'
                 }
