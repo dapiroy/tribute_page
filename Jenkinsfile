@@ -10,7 +10,7 @@ pipeline {
                 
                 script {
                     
-                    git branch: 'main', url: 'https://github.com/dapiroy/tribute_page.git'
+                    git branch: 'master', url: 'https://github.com/dapiroy/tribute_page.git'
                 }
             }
         }
